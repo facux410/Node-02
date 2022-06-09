@@ -1,0 +1,28 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "- Crear una API REST para perritos. Usar la siguiente [GUÍA](https://dev.to/macmacky/get-better-with-typescript-using-express-3ik6)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facux410/Node-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facux410/Node-02/issues"
+  },
+  "homepage": "https://github.com/facux410/Node-02#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.41",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
