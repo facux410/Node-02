@@ -88,13 +88,13 @@ app.put<BaseParams, APIResponse<Dog>, Partial<DogDetails>, Empty>(
     // your implementation
     res.send({
       data: {
-        name: "isi",
+        name: "isix",
         breed: "german shepherd",
         adopted_at: null,
         birth_date: null,
         id: 3,
       },
-      message: "dog added",
+      message: "dog update",
     });
   }
 );
@@ -104,13 +104,13 @@ app.delete<BaseParams, APIResponse<Dog>, Empty, Empty>(
   (req, res) => {
     res.send({
       data: {
-        name: "isi",
+        name: "isix",
         breed: "german shepherd",
         adopted_at: null,
         birth_date: null,
         id: 3,
       },
-      message: "dog added",
+      message: "dog deleted",
     });
   }
 );
